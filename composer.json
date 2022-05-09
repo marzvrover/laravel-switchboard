@@ -9,8 +9,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/marzvrover/laravel-switchboard/issues",
-        "source": "https://github.com/marzvrover/laravel-switchboard"
+        "issues": "https://github.com/marzvrover/php-switchboard/issues",
+        "source": "https://github.com/marzvrover/php-switchboard"
     },
     "require": {
         "composer-runtime-api": "^2.1"
@@ -28,18 +28,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Marzvrover\\LaravelSwitchboard\\": "src/"
+            "Marzvrover\\Switchboard\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Marzvrover\\LaravelSwitchboard\\Tests\\": "tests/"
+            "Marzvrover\\Switchboard\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Marzvrover\\LaravelSwitchboardProvider"
+                "Marzvrover\\SwitchboardServiceProvider"
             ]
         }
     },

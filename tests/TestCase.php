@@ -1,8 +1,8 @@
 <?php
 
-namespace Marzvrover\LaravelSwitchboard\Tests;
+namespace Marzvrover\Switchboard\Tests;
 
-use Marzvrover\LaravelSwitchboard\LaravelSwithboardServiceProvider;
+use Marzvrover\Switchboard\SwitchboardServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
@@ -14,6 +14,6 @@ abstract class TestCase extends OrchestraTestCase
 
     protected function getPackageProviders($app)
     {
-        return [LaravelSwithboardServiceProvider::class];
+        return [SwitchboardServiceProvider::class];
     }
 }

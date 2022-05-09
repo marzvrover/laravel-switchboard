@@ -1,6 +1,6 @@
 <?php
 
-namespace Marzvrover\LaravelSwitchboard;
+namespace Marzvrover\Switchboard;
 
 if (! \Composer\InstalledVersions::isInstalled('Illuminate\Support') ) {
     throw new \Exception("Must install Illuminate\Support for laravel support");
@@ -8,6 +8,6 @@ if (! \Composer\InstalledVersions::isInstalled('Illuminate\Support') ) {
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelSwithboardServiceProvider extends ServiceProvider {
+class SwitchboardServiceProvider extends ServiceProvider {
 
 }
