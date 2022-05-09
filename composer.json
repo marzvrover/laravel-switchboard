@@ -1,6 +1,6 @@
 {
-    "name": "marzvrover/laravel-switchboard",
-    "description": "A laravel package to connect to various phone APIs",
+    "name": "marzvrover/php-switchboard",
+    "description": "A PHP package to connect to various phone APIs",
     "license": "MIT",
     "authors": [
         {
@@ -13,10 +13,13 @@
         "source": "https://github.com/marzvrover/laravel-switchboard"
     },
     "require": {
-        "illuminate/support": "^9.11"
+        "composer-runtime-api": "^2.1"
     },
     "require-dev": {
         "orchestra/testbench": "^7.4"
+    },
+    "suggest": {
+        "illuminate/support": "For laravel support"
     },
     "scripts": {
         "post-autoload-dump": [
